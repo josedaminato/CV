@@ -1,28 +1,32 @@
 const copy = {
   en: {
+    "skip": "Skip to content",
+    "nav.label": "Sections",
     "nav.work": "Work",
     "nav.stack": "Stack",
     "nav.languages": "Languages",
     "nav.hire": "Hire me?",
+    "lang.switch": "Language",
     "clock.label": "Copenhagen",
+    "x.tip": "Leaving already? Check my LinkedIn.",
     "hero.kicker": "Software developer",
     "hero.deck": "Web applications and business systems.",
     "hero.where": "Copenhagen, Denmark · Italian / EU citizen",
-    "hero.profile": "Developer and founder of DaminatoWeb. I build web applications and client websites from the first requirements through implementation. I created AppMédica, a healthcare practice-management project covering patient records, scheduling, payments and reporting. I work across product thinking, hands-on development and direct client delivery, and I use AI-assisted tools to support development and problem-solving.",
+    "hero.profile": "Software developer and founder of DaminatoWeb. I take a need from the first conversation through a working product: client websites, and applications such as AppMédica, which I created for practice administration. I can sit with a problem, shape the solution, build it, and leave it clear for the person who uses it and for a team that has to extend it.",
     "hero.pdf": "One-page PDF",
     "work.title": "Selected work",
     "app.role": "Creator and developer",
-    "app.meta": "Independent healthcare software project",
-    "app.b1": "Built an integrated application around healthcare administration: patient records, appointment scheduling, insurance follow-up, payments and monthly reports.",
-    "app.b2": "Connected the interface, API and database using React and TypeScript, Python and FastAPI, and PostgreSQL.",
-    "app.b3": "Implemented authentication and role-based permissions, spreadsheet import and data exports to support everyday administrative workflows.",
-    "app.b4": "Included Docker Compose for local development and automated checks for core application flows.",
+    "app.meta": "Independent software project",
+    "app.b1": "I created AppMédica as an end-to-end application for practice administration: patient records, appointments, insurance follow-up, payments, and monthly reports.",
+    "app.b2": "The daily work is in the product: spreadsheet import, appointment closeout, claims follow-up, and data export.",
+    "app.b3": "The interface is React and TypeScript, the API is Python and FastAPI, and the data lives in PostgreSQL.",
+    "app.b4": "Authentication and role-based permissions let more than one person work in the same practice. Docker Compose runs it locally. Backend tests and the frontend build run in CI, and a script checks the core flows.",
     "app.link": "Repository",
     "dw.role": "Founder and web developer",
     "dw.meta": "Independent web development and digital services",
-    "dw.b1": "Turn client needs into websites and digital services, managing discovery, implementation, improvements and ongoing support.",
-    "dw.b2": "Develop websites for professional services, including healthcare and legal businesses, with HTML, CSS and JavaScript.",
-    "dw.b3": "Improve mobile usability, performance, accessibility and contact paths, and connect website work with Google Ads campaigns and business objectives.",
+    "dw.b1": "I founded DaminatoWeb and take client work from the first brief through implementation, later improvements, and support.",
+    "dw.b2": "The sites are for professional services, including healthcare and legal businesses, built with HTML, CSS, and JavaScript.",
+    "dw.b3": "The practical work is mobile use, performance, accessibility, contact paths, and what a business needs to reach people, including Google Ads when that is part of the brief.",
     "dw.link": "daminatoweb.com",
     "stack.title": "Technology and working methods",
     "stack.web.label": "Web development",
@@ -31,16 +35,17 @@ const copy = {
     "stack.focus.label": "Focus",
     "stack.focus.value": "Workflow design, API integration, data management, client requirements and iterative delivery.",
     "stack.ways.label": "Strengths",
-    "stack.ways.value": "Teamwork & Collaboration · Problem-Solving · Analytical Thinking · Initiative & Ownership · Adaptability · User-Focused Mindset · Continuous Learning",
+    "stack.ways.value": "Teamwork & Collaboration · Problem-Solving · Analytical Thinking · Initiative & Ownership · Adaptability · User-Focused Mindset · Continuous Learning. With clients, that means staying with the brief after the site is live. On AppMédica, it means shaping the admin flow around the person who uses it, then building the parts that make it work.",
     "lang.title": "Languages",
     "lang.es.label": "Spanish",
     "lang.es.value": "Native",
     "lang.en.label": "English",
-    "lang.en.value": "Basic spoken, actively improving. Written communication supported by digital tools.",
+    "lang.en.value": "Spoken English is basic, and I am actively improving it. Written English is clearer. I use digital tools when I need help with the wording.",
     "ask.title": "Interested in hiring me?",
     "ask.note": "Yes goes to email. No has other plans.",
     "ask.yes": "Yes",
     "ask.no": "No",
+    "ask.noHelp": "This button steps aside. Email is the reliable way to get in touch.",
     quips: [
       "Too slow.",
       "That one moved.",
@@ -52,29 +57,33 @@ const copy = {
     tenure: (label) => `February 2022 — present · ${label}`
   },
   es: {
+    "skip": "Saltar al contenido",
+    "nav.label": "Secciones",
     "nav.work": "Trabajo",
     "nav.stack": "Stack",
     "nav.languages": "Idiomas",
     "nav.hire": "¿Me contratás?",
+    "lang.switch": "Idioma",
     "clock.label": "Copenhague",
+    "x.tip": "¿Ya te vas? Mirá mi LinkedIn.",
     "hero.kicker": "Desarrollador de software",
     "hero.deck": "Aplicaciones web y sistemas para negocios.",
     "hero.where": "Copenhague, Dinamarca · Ciudadano italiano / UE",
-    "hero.profile": "Desarrollador y fundador de DaminatoWeb. Armo aplicaciones web y sitios para clientes, desde los requisitos iniciales hasta la implementación. Creé AppMédica, un proyecto de gestión para consultorios que cubre registros de pacientes, turnos, pagos e informes. Combino criterio de producto, desarrollo práctico y entrega directa con el cliente, y uso herramientas con IA para apoyar el desarrollo y la resolución de problemas.",
+    "hero.profile": "Desarrollador de software y fundador de DaminatoWeb. Llevo una necesidad desde la primera conversación hasta un producto que funciona: sitios para clientes y aplicaciones como AppMédica, que creé para la administración de un consultorio. Puedo sentarme con un problema, definir la solución, construirla y dejarla clara para quien la usa y para un equipo que tenga que seguirla.",
     "hero.pdf": "PDF de una página",
     "work.title": "Trabajo seleccionado",
     "app.role": "Creador y desarrollador",
-    "app.meta": "Proyecto independiente de software para salud",
-    "app.b1": "Armé una aplicación integrada para la administración de un consultorio: registros de pacientes, turnos, seguimiento de seguros, pagos e informes mensuales.",
-    "app.b2": "Conecté la interfaz, la API y la base de datos con React y TypeScript, Python y FastAPI, y PostgreSQL.",
-    "app.b3": "Implementé autenticación y permisos por rol, importación de planillas y exportación de datos para el trabajo administrativo de todos los días.",
-    "app.b4": "Incluí Docker Compose para el desarrollo local y controles automáticos de los flujos principales.",
+    "app.meta": "Proyecto de software independiente",
+    "app.b1": "Creé AppMédica como una aplicación de punta a punta para la administración de un consultorio: registros de pacientes, turnos, seguimiento de seguros, pagos e informes mensuales.",
+    "app.b2": "El trabajo diario está en el producto: importación de planillas, cierre de turnos, seguimiento de reclamos y exportación de datos.",
+    "app.b3": "La interfaz es React y TypeScript, la API es Python y FastAPI, y los datos viven en PostgreSQL.",
+    "app.b4": "La autenticación y los permisos por rol permiten que más de una persona trabaje en el mismo consultorio. Docker Compose lo levanta en local. Las pruebas del backend y el build del frontend corren en CI, y un script controla los flujos principales.",
     "app.link": "Repositorio",
     "dw.role": "Fundador y desarrollador web",
     "dw.meta": "Desarrollo web y servicios digitales independientes",
-    "dw.b1": "Convierto necesidades de clientes en sitios y servicios digitales: descubrimiento, implementación, mejoras y soporte.",
-    "dw.b2": "Desarrollo sitios para servicios profesionales, incluidos rubros de salud y legales, con HTML, CSS y JavaScript.",
-    "dw.b3": "Mejoro el uso en el celular, el rendimiento, la accesibilidad y los caminos de contacto, y conecto el trabajo del sitio con campañas de Google Ads y los objetivos del negocio.",
+    "dw.b1": "Fundé DaminatoWeb y llevo el trabajo con clientes desde el primer encargo hasta la implementación, las mejoras posteriores y el soporte.",
+    "dw.b2": "Los sitios son para servicios profesionales, incluidos rubros de salud y legales, con HTML, CSS y JavaScript.",
+    "dw.b3": "El trabajo concreto es el uso en el celular, el rendimiento, la accesibilidad, los caminos de contacto y lo que un negocio necesita para llegar a la gente, incluido Google Ads cuando forma parte del encargo.",
     "dw.link": "daminatoweb.com",
     "stack.title": "Tecnología y forma de trabajo",
     "stack.web.label": "Desarrollo web",
@@ -83,16 +92,17 @@ const copy = {
     "stack.focus.label": "Foco",
     "stack.focus.value": "Diseño de flujos de trabajo, integración de APIs, manejo de datos, requisitos del cliente y entrega iterativa.",
     "stack.ways.label": "Fortalezas",
-    "stack.ways.value": "Trabajo en equipo y colaboración · Resolución de problemas · Pensamiento analítico · Iniciativa y responsabilidad · Adaptabilidad · Enfoque en el usuario · Aprendizaje continuo",
+    "stack.ways.value": "Trabajo en equipo y colaboración · Resolución de problemas · Pensamiento analítico · Iniciativa y responsabilidad · Adaptabilidad · Enfoque en el usuario · Aprendizaje continuo. Con los clientes, es seguir el encargo después de que el sitio está publicado. En AppMédica, es armar el flujo administrativo alrededor de quien lo usa y construir las partes que lo hacen funcionar.",
     "lang.title": "Idiomas",
     "lang.es.label": "Español",
     "lang.es.value": "Nativo",
     "lang.en.label": "Inglés",
-    "lang.en.value": "Oral básico, en mejora activa. La comunicación escrita, apoyada con herramientas digitales.",
+    "lang.en.value": "El inglés oral es básico y lo estoy mejorando. El escrito es más claro. Uso herramientas digitales cuando necesito ayuda con la redacción.",
     "ask.title": "¿Te interesa contratarme?",
     "ask.note": "Sí abre el mail. No tiene otros planes.",
     "ask.yes": "Sí",
     "ask.no": "No",
+    "ask.noHelp": "Este botón se corre. El mail es la vía segura para escribirme.",
     quips: [
       "Muy lento.",
       "Ese se movió.",
@@ -146,6 +156,10 @@ function applyLanguage(next) {
   document.querySelectorAll("[data-i18n]").forEach((node) => {
     const key = node.getAttribute("data-i18n");
     if (dict[key]) node.textContent = dict[key];
+  });
+  document.querySelectorAll("[data-i18n-aria]").forEach((node) => {
+    const key = node.getAttribute("data-i18n-aria");
+    if (dict[key]) node.setAttribute("aria-label", dict[key]);
   });
   document.querySelectorAll(".langs button").forEach((button) => {
     button.setAttribute("aria-pressed", String(button.dataset.lang === lang));
@@ -237,15 +251,21 @@ function relocate(pointerX, pointerY) {
   quip.textContent = lines[Math.min(attempts, lines.length) - 1];
 }
 
+function cursorIsAboveNo(clientY) {
+  return clientY < noBtn.getBoundingClientRect().top;
+}
+
 function nearNo(x, y) {
+  if (cursorIsAboveNo(y)) return false;
   const rect = noBtn.getBoundingClientRect();
   const cx = rect.left + rect.width / 2;
   const cy = rect.top + rect.height / 2;
-  return Math.hypot(x - cx, y - cy) < 88;
+  return Math.hypot(x - cx, y - cy) < 72;
 }
 
 arena.addEventListener("pointermove", (event) => {
   if (reduced) return;
+  if (cursorIsAboveNo(event.clientY)) return;
   if (nearNo(event.clientX, event.clientY)) {
     relocate(event.clientX, event.clientY);
   }

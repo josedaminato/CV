@@ -146,6 +146,7 @@ a { color: inherit; }
 .top.on-dark .clock { color: rgba(246, 241, 232, 0.72); }
 
 .corner-x {
+  position: relative;
   display: grid;
   place-items: center;
   width: 32px;
@@ -155,6 +156,49 @@ a { color: inherit; }
   font-size: 20px;
   line-height: 1;
   font-weight: 500;
+}
+
+.x-tip {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  z-index: 20;
+  width: max-content;
+  max-width: 220px;
+  padding: 8px 10px;
+  background: var(--ink);
+  color: var(--cream);
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.35;
+  text-align: left;
+  text-transform: none;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.corner-x:hover .x-tip,
+.corner-x:focus .x-tip,
+.corner-x:focus-visible .x-tip {
+  opacity: 1;
+}
+
+.top.on-dark .x-tip {
+  background: var(--cream);
+  color: var(--finale);
+}
+
+.sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .corner-x:hover { color: var(--stamp); }
@@ -321,7 +365,7 @@ a { color: inherit; }
   color: var(--muted);
 }
 
-.facts dd { margin: 0; max-width: 52ch; }
+.facts dd { margin: 0; max-width: 62ch; }
 
 .finale {
   background: var(--finale);
@@ -339,21 +383,18 @@ a { color: inherit; }
 .finale h2 { max-width: 12ch; margin-top: 12px; }
 
 .ask-note {
-  color: rgba(246, 241, 232, 0.62);
+  color: #d4cec3;
   margin-top: 16px;
   letter-spacing: 0.08em;
 }
 
 .arena {
   position: relative;
-  margin-top: 32px;
-  min-height: 340px;
-  border: 1px dashed rgba(246, 241, 232, 0.28);
-  border-radius: 18px;
-  background-image:
-    linear-gradient(rgba(246, 241, 232, 0.05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(246, 241, 232, 0.05) 1px, transparent 1px);
-  background-size: 32px 32px;
+  margin-top: 40px;
+  min-height: 280px;
+  border-top: 1px solid rgba(246, 241, 232, 0.16);
+  background: none;
+  background-image: none;
   overflow: hidden;
 }
 
@@ -486,7 +527,7 @@ a { color: inherit; }
 
   .choices { flex-direction: column; }
 
-  .arena { min-height: 380px; }
+  .arena { min-height: 320px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
