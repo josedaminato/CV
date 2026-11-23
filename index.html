@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>José Pablo Daminato — Software developer</title>
+  <meta name="description" content="Software developer in Copenhagen. Founder of DaminatoWeb and creator of AppMédica. Web applications and business systems.">
+  <meta name="color-scheme" content="light">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%231b1915'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='Georgia' font-size='14' fill='%23f6f1e8'%3EJD%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+
+  <header class="top">
+    <div class="wrap top-bar">
+      <a class="mark" href="#content">José Daminato</a>
+      <nav class="nav" aria-label="Sections">
+        <a href="#work" data-i18n="nav.work">Work</a>
+        <a href="#stack" data-i18n="nav.stack">Stack</a>
+        <a href="#languages" data-i18n="nav.languages">Languages</a>
+        <a href="#decision" data-i18n="nav.hire">Hire me?</a>
+      </nav>
+      <div class="top-meta">
+        <div class="langs" role="group" aria-label="Language">
+          <button type="button" data-lang="en" aria-pressed="true">EN</button>
+          <button type="button" data-lang="es" aria-pressed="false">ES</button>
+        </div>
+        <p class="clock"><span data-i18n="clock.label">Copenhagen</span> <time id="clock" datetime="">--:--</time></p>
+      </div>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="hero">
+      <div class="wrap">
+        <p class="kicker" data-i18n="hero.kicker">Software developer</p>
+        <h1 class="name">José Pablo <em>Daminato</em></h1>
+        <p class="deck" data-i18n="hero.deck">Web applications and business systems.</p>
+        <p class="where" data-i18n="hero.where">Copenhagen, Denmark · Italian / EU citizen</p>
+        <p class="profile" data-i18n="hero.profile">Developer and founder of DaminatoWeb. I build web applications and client websites from the first requirements through implementation. I created AppMédica, a healthcare practice-management project covering patient records, scheduling, payments and reporting. I work across product thinking, hands-on development and direct client delivery, and I use AI-assisted tools to support development and problem-solving.</p>
+        <p class="contacts">
+          <a href="mailto:daminatojp@gmail.com">daminatojp@gmail.com</a>
+          <a href="tel:+4550128815">+45 50 12 88 15</a>
+          <a href="https://daminatoweb.com" target="_blank" rel="noopener noreferrer">daminatoweb.com</a>
+          <a href="https://github.com/josedaminato" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/daminatoweb" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </p>
+        <p class="pdf-line"><a href="Jose_Daminato_Developer_CV.pdf" data-i18n="hero.pdf">One-page PDF</a></p>
+      </div>
+    </section>
+
+    <section id="work" class="band">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="index">01</p>
+          <h2 data-i18n="work.title">Selected work</h2>
+        </header>
+
+        <article class="project">
+          <div class="project-kicker">
+            <h3>AppMédica</h3>
+            <p data-i18n="app.role">Creator and developer</p>
+          </div>
+          <div class="project-body">
+            <p class="meta" data-i18n="app.meta">Independent healthcare software project</p>
+            <ul>
+              <li data-i18n="app.b1">Built an integrated application around healthcare administration: patient records, appointment scheduling, insurance follow-up, payments and monthly reports.</li>
+              <li data-i18n="app.b2">Connected the interface, API and database using React and TypeScript, Python and FastAPI, and PostgreSQL.</li>
+              <li data-i18n="app.b3">Implemented authentication and role-based permissions, spreadsheet import and data exports to support everyday administrative workflows.</li>
+              <li data-i18n="app.b4">Included Docker Compose for local development and automated checks for core application flows.</li>
+            </ul>
+            <p class="project-links">
+              <a href="https://github.com/josedaminato/appmedica" target="_blank" rel="noopener noreferrer" data-i18n="app.link">Repository</a>
+            </p>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-kicker">
+            <h3>DaminatoWeb</h3>
+            <p data-i18n="dw.role">Founder and web developer</p>
+          </div>
+          <div class="project-body">
+            <p class="meta"><span data-i18n="dw.meta">Independent web development and digital services</span> · <span id="tenure">February 2022 — present</span></p>
+            <ul>
+              <li data-i18n="dw.b1">Turn client needs into websites and digital services, managing discovery, implementation, improvements and ongoing support.</li>
+              <li data-i18n="dw.b2">Develop websites for professional services, including healthcare and legal businesses, with HTML, CSS and JavaScript.</li>
+              <li data-i18n="dw.b3">Improve mobile usability, performance, accessibility and contact paths, and connect website work with Google Ads campaigns and business objectives.</li>
+            </ul>
+            <p class="project-links">
+              <a href="https://daminatoweb.com" target="_blank" rel="noopener noreferrer" data-i18n="dw.link">daminatoweb.com</a>
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="stack" class="band band-alt">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="index">02</p>
+          <h2 data-i18n="stack.title">Technology and working methods</h2>
+        </header>
+        <dl class="facts">
+          <div>
+            <dt data-i18n="stack.web.label">Web development</dt>
+            <dd>HTML, CSS, JavaScript</dd>
+          </div>
+          <div>
+            <dt data-i18n="stack.app.label">AppMédica</dt>
+            <dd>React, TypeScript, Python, FastAPI, PostgreSQL, Docker Compose</dd>
+          </div>
+          <div>
+            <dt data-i18n="stack.tools.label">Tools</dt>
+            <dd>Git, GitHub, Cursor, ChatGPT</dd>
+          </div>
+          <div>
+            <dt data-i18n="stack.focus.label">Focus</dt>
+            <dd data-i18n="stack.focus.value">Workflow design, API integration, data management, client requirements and iterative delivery.</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="languages" class="band">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="index">03</p>
+          <h2 data-i18n="lang.title">Languages</h2>
+        </header>
+        <dl class="facts facts-short">
+          <div>
+            <dt data-i18n="lang.es.label">Spanish</dt>
+            <dd data-i18n="lang.es.value">Native</dd>
+          </div>
+          <div>
+            <dt data-i18n="lang.en.label">English</dt>
+            <dd data-i18n="lang.en.value">Basic spoken, actively improving. Written communication supported by digital tools.</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="decision" class="finale">
+      <div class="wrap finale-inner">
+        <p class="index light">04</p>
+        <h2 data-i18n="ask.title">Interested in hiring me?</h2>
+        <p class="ask-note" data-i18n="ask.note">Yes goes to email. No has other plans.</p>
+
+        <div class="arena" id="arena">
+          <div class="choices">
+            <a class="yes" id="yes" href="mailto:daminatojp@gmail.com?subject=Hello%20Jos%C3%A9%20%E2%80%94%20let%27s%20talk" data-i18n="ask.yes">Yes</a>
+            <button class="no" id="no" type="button" data-i18n="ask.no">No</button>
+          </div>
+        </div>
+
+        <p class="quip" id="quip" aria-live="polite"></p>
+
+        <p class="finale-contact">
+          <a href="mailto:daminatojp@gmail.com">daminatojp@gmail.com</a>
+          <a href="tel:+4550128815">+45 50 12 88 15</a>
+          <a href="https://github.com/josedaminato" target="_blank" rel="noopener noreferrer">github.com/josedaminato</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <a class="hire-chip" id="hire-chip" href="#decision" hidden data-i18n="nav.hire">Hire me?</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
