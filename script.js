@@ -86,8 +86,8 @@ const copy = {
     "lang.en.label": "Inglés",
     "lang.en.value": "Oral básico, en mejora activa. La comunicación escrita, apoyada con herramientas digitales.",
     "ask.title": "¿Te interesa contratarme?",
-    "ask.note": "Yes abre el mail. No tiene otros planes.",
-    "ask.yes": "Yes",
+    "ask.note": "Sí abre el mail. No tiene otros planes.",
+    "ask.yes": "Sí",
     "ask.no": "No",
     quips: [
       "Muy lento.",
